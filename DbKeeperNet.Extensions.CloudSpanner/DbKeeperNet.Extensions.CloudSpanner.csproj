@@ -19,7 +19,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="CloudSpannerDatabaseServiceInstall.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="CloudSpannerDatabaseServiceInstall.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Google.Cloud.Spanner.Data" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DbKeeperNet.Engine\DbKeeperNet.Engine.csproj" />
+  </ItemGroup>
 </Project>
