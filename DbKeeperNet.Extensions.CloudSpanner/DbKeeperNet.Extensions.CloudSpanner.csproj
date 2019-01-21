@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\DbKeeperNet.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <Product>DbKeeperNet</Product>
+    <Version>3.0.0-alpha</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Vladimir Kloz</Authors>
+    <Description>Google Cloud Spanner support extension for DbKeeperNet database migrations</Description>
+    <Copyright>Copyright (c) 2009-2019, Vladimir Kloz &lt;vladimir.kloz@gmail.com&gt;</Copyright>
+    <PackageLicenseUrl>https://github.com/DbKeeperNet/DbKeeperNet/wiki/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DbKeeperNet/DbKeeperNet</RepositoryUrl>
+    <PackageTags>Google Cloud Spanner Database Upgrade Migrations</PackageTags>
+
   </PropertyGroup>
 
   <ItemGroup>
